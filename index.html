@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Pusat Bike Indonesia</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="http://pusatbike.com" class="nav__logo">
+                    <img src="assets/img/logo.png" alt="">
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#specs" class="nav__link">Services</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Products</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#testimonial" class="nav__link">Testimonial</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div>
+                        <img src="assets/img/home2.png" alt="" class="home__img">
+                    </div>
+                    
+                    <div class="home__data">
+                        <div class="home__header">
+                            <h1 class="home__title">Bike</h1>
+                            <h2 class="home__subtitle">Pusat</h2>
+                        </div>
+
+                        <div class="home__footer">
+                            <h3 class="home__title-description">The custom bike center</h3>
+                            <p class="home__description">Melayani kustomisasi sepeda sesuai dengan keinginan serta menyediakan part unik untuk sepeda kesayangan anda.
+                            </p>
+                            <a href="#" class="button button--flex">
+                                <span class="button--flex">
+                                    <!-- <i class="ri-arrow-right-s-line"></i></i>  -->
+                                    Get Start It! 
+                                </span>
+                                <!-- <span class="home__price">$299</span> -->
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--=============== SPONSOR ===============-->
+            <!-- <section class="sponsor section">
+                <div class="sponsor__container container grid">
+                    <img src="assets/img/sponsor1.png" alt="" class="sponsor__img">
+                    <img src="assets/img/sponsor2.png" alt="" class="sponsor__img">
+                    <img src="assets/img/sponsor3.png" alt="" class="sponsor__img">
+                    <img src="assets/img/sponsor4.png" alt="" class="sponsor__img">
+                </div>
+            </section> -->
+
+             <!--=============== SPECS ===============-->
+             <section class="specs section grid" id="specs">
+                <h2 class="section__title section__title-gradient">Services</h2>
+
+                <div class="specs__container container grid">
+                    <div class="specs__content grid">
+                        <div class="specs__data">
+                            <i class="ri-bike-line specs__icon" ></i>
+                            <h3 class="specs__title">Discussion</h3>
+                            <span class="specs__subtitle">Diskusikan desain sepeda yang <br> anda inginkan</span>
+                        </div>
+    
+                        <div class="specs__data">
+                            <i class="ri-money-dollar-box-line specs__icon"></i>
+                            <h3 class="specs__title">Budget</h3>
+                            <span class="specs__subtitle">Bahan bisa disesuaikan <br> dengan budget anda</span>
+                        </div>
+    
+                        <div class="specs__data">
+                            <i class="ri-pencil-line specs__icon"></i>
+                            <h3 class="specs__title">Color</h3>
+                            <span class="specs__subtitle">Warna sepeda sesuai request anda</span>
+                        </div>
+    
+                        <div class="specs__data">
+                            <i class="ri-settings-5-line specs__icon"></i>
+                            <h3 class="specs__title">Spare</h3>
+                            <span class="specs__subtitle">Tambahkan sparepart sesuai keinginan anda</span>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <img src="assets/img/crank.png" alt="" class="specs__img">
+                    </div>
+                </div>
+            </section>
+
+             <!--=============== PRODUCTS ===============-->
+             <section class="products section" id="products">
+                <h2 class="section__title section__title-gradient products__line">
+                    Choose <br> Your Bike
+                </h2>
+
+                <div class="products__container container grid">
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="assets/img/bmx1.png" alt="" class="products__img">
+    
+                            <h3 class="products__title">Bmx</h3>
+                            <span class="products__price">500K</span>
+    
+                            <button class="button button--flex products__button" onclick="location.href='bmx/index.html';">
+                                See <i class="ri-arrow-right-s-line"></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="assets/img/bmx1.png" alt="" class="products__img">
+    
+                            <h3 class="products__title">Tandem</h3>
+                            <span class="products__price">1000K</span>
+    
+                            <button class="button button--flex products__button" onclick="location.href='tandem/index.html';"> 
+                                See <i class="ri-arrow-right-s-line"></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="assets/img/bmx1.png" alt="" class="products__img">
+    
+                            <h3 class="products__title">Siput</h3>
+                            <span class="products__price">1500K</span>
+    
+                            <button class="button button--flex products__button" onclick="location.href='siput/index.html';">
+                                See <i class="ri-arrow-right-s-line"></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="assets/img/bmx1.png" alt="" class="products__img">
+    
+                            <h3 class="products__title">Gunung</h3>
+                            <span class="products__price">2500K</span>
+    
+                            <button class="button button--flex products__button" onclick="location.href='gunung/index.html';">
+                                See <i class="ri-arrow-right-s-line"></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="assets/img/bmx1.png" alt="" class="products__img">
+    
+                            <h3 class="products__title">Fixie</h3>
+                            <span class="products__price">500K</span>
+    
+                            <button class="button button--flex products__button" onclick="location.href='fixie/index.html';">
+                                See <i class="ri-arrow-right-s-line"></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="assets/img/bmx1.png" alt="" class="products__img">
+    
+                            <h3 class="products__title">Lipat</h3>
+                            <span class="products__price">700K</span>
+    
+                            <button class="button button--flex products__button" onclick="location.href='lipat/index.html';">
+                                See <i class="ri-arrow-right-s-line"></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="assets/img/bmx1.png" alt="" class="products__img">
+    
+                            <h3 class="products__title">Desain Sendiri</h3>
+                            <span class="products__price">Your Budget</span>
+    
+                            <button class="button button--flex products__button" onclick="location.href='https://wa.me/6288805144004';">
+                                Call Us <i class="ri-arrow-right-s-line"></i>
+                            </button>
+                        </div>
+                    </article>
+                    
+                </div>
+            </section>
+
+             <!--==================== TESTIMONIAL ====================-->
+             <section class="testimonial section" id="testimonial">
+                <h2 class="section__title section__title-gradient">Testimoni</h2>
+                <div class="testimonial__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- testi1 -->
+                        <div class="testimonial__content swiper-slide">
+                            <div class="testimonial__data">
+                                <div class="testimonial__header">
+                                    <img src="assets/img/testimonial1.jpg" alt="" class="testimonial__img">
+                                    <div>
+                                        <h3 class="testimonial__name">Sara Smith</h3>
+                                        <span class="testimonial__client">Client</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <i class="uis uis-star testimonial__icon-star"></i>
+                                    <i class="uis uis-star testimonial__icon-star"></i>
+                                    <i class="uis uis-star testimonial__icon-star"></i>
+                                    <i class="uis uis-star testimonial__icon-star"></i>
+                                    <i class="uis uis-star testimonial__icon-star"></i>
+                                </div>
+                            </div>
+                            <p class="testimonial__description">I get a good impression, I carry out my project with all the possible quality and attention and support 24 hours a day.</p>
+                        </div>
+                        <div class="testimonial__content swiper-slide">
+                            <div class="testimonial__data">
+                                <div class="testimonial__header">
+                                    <img src="assets/img/testimonial2.jpg" alt="" class="testimonial__img">
+                                    <div>
+                                        <h3 class="testimonial__name">Auf Jason</h3>
+                                        <span class="testimonial__client">Client</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <i class="uis uis-star testimonial__icon-star"></i>
+                                    <i class="uis uis-star testimonial__icon-star"></i>
+                                    <i class="uis uis-star testimonial__icon-star"></i>
+                                    <i class="uis uis-star testimonial__icon-star"></i>
+                                    <i class="uis uis-star testimonial__icon-star"></i>
+                                </div>
+                            </div>
+                            <p class="testimonial__description">I get a good impression, I carry out my project with all the possible quality and attention and support 24 hours a day.</p>
+                        </div>
+                        <div class="testimonial__content swiper-slide">
+                            <div class="testimonial__data">
+                                <div class="testimonial__header">
+                                    <img src="assets/img/testimonial3.jpg" alt="" class="testimonial__img">
+                                    <div>
+                                        <h3 class="testimonial__name">Kun Stefan</h3>
+                                        <span class="testimonial__client">Client</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <i class="uis uis-star testimonial__icon-star"></i>
+                                    <i class="uis uis-star testimonial__icon-star"></i>
+                                    <i class="uis uis-star testimonial__icon-star"></i>
+                                    <i class="uis uis-star testimonial__icon-star"></i>
+                                    <i class="uis uis-star testimonial__icon-star"></i>
+                                </div>
+                            </div>
+                            <p class="testimonial__description">I get a good impression, I carry out my project with all the possible quality and attention and support 24 hours a day.</p>
+                        </div>
+                    </div>
+                    <!-- pagination -->
+                    <div class="swiper-pagination swiper-pagination-testimonial"></div>
+                </div>
+            </section>
+
+            <!--=============== CASE ===============-->
+            <!-- <section class="case section grid" id="case">
+                <h2 class="section__title section__title-gradient">Testimoni</h2>
+
+                <div class="case__container container grid">
+                    <div>
+                        <img src="assets/img/case.png" alt="" class="case__img">
+                    </div>
+
+                    <div class="case__data">
+                        <p class="case__description">With a comfortable and adaptable case so that you can 
+                            store it whenever you want, and keep your durability forever.
+                        </p>
+                        <a href="#" class="button button--flex">
+                            <i class="ri-information-line button__icon"></i> More info
+                        </a>
+                    </div>
+                </div>
+            </section> -->
+
+            <!--=============== DISCOUNT ===============-->
+            <section class="discount section">
+                <div class="discount__container container grid">
+                    <div class="discount__animate">
+                        <h2 class="discount__title">Create your own bike!</h2>
+                        <p class="discount__description">Diskusikan desain sepeda anda dengan kami segera.</p>
+                        <a href="https://wa.me/6288805144004" class="button button--flex">
+                            <i class="uil uil-whatsapp button__icon"></i> Whatsapp
+                        </a>
+                    </div>
+
+                    <img src="assets/img/discount.png" alt="" class="discount__img">
+                </div>
+            </section>
+
+           
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <a href="#" class="footer__logo">
+                    <img src="assets/img/logo.png" alt="">
+                </a>
+    
+                <div class="footer__content">
+                    <h3 class="footer__title">Products</h3>
+    
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Headphones</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Earphones</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Earbuds</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Accesories</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="footer__content">
+                    <h3 class="footer__title">Support</h3>
+    
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Product help</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Register</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Updates</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Provides</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="footer__content">
+                    <form action="" class="footer__form">
+                        <input type="email" placeholder="Email" class="footer__input">
+                        <button class="button button--flex">
+                            <i class="ri-send-plane-line button__icon"></i> Subscribe
+                        </button>
+                    </form>
+    
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="footer__copy">
+                <a href="https://www.youtube.com/c/Bedimcode/" target="_blank" class="footer__copy-link">&#169; Bedimcode. All right reserved</a>
+            </p>
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-s-line scrollup__icon"></i>
+        </a>
+        
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
